@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "Cypress open",
-    "testrunChrome": "cypress run --browser chrome --spec cypress/e2e/Automation/TechTest.cy.js --record --key 3f89190e-c97d-47e8-afec-b6c1087d45c8"
+    "testrunChrome": "cypress run --browser chrome --spec cypress/e2e/TechTest.cy.js --record --key af016f3b-5377-43c3-96a8-8e98d7f360ba"
   },
   "author": "Natalia Gutierrez",
   "license": "ISC",
