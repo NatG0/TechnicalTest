@@ -1,0 +1,18 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "Cypress open",
+    "testrunChrome": "cypress run --browser chrome --spec cypress/e2e/Automation/TechTest.cy.js --record --key 3f89190e-c97d-47e8-afec-b6c1087d45c8"
+  },
+  "author": "Natalia Gutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
